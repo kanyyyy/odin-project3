@@ -1,5 +1,5 @@
 .main {
-    height: 300px;
+    height: 369px;
     background-color: #3e4d62;
 }
 
@@ -70,4 +70,38 @@
 
 .signup-btn:hover{
     background-color: #4670b3;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+.img-div{
+    align-content: end;
+    transition-duration: 0.5s;
+}
+
+.img-div:hover{
+    transition-duration: 0.5s;
+    margin-top: 20px;
+}
+
+.mus{
+    width: 240px;
+    height: 250px;
+    margin-right: 7.9px;
+    margin-top: 55px;
+    object-fit: cover;
+    transition-duration: 0.4s;
+}
+
+.mus:hover{
+    filter: brightness(60%);
+    transition-duration: 0.4s;
 }
