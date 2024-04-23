@@ -1,6 +1,6 @@
 .main {
     height: 369px;
-    background-color: #3e4d62;
+    background-color: #2a2c2e;
 }
 
 .header{
@@ -33,6 +33,7 @@
 }
 
 .margin{
+    width: 1000px;
     margin-left: 150px;
     margin-right: 165px;
 }
@@ -58,7 +59,7 @@
 
 .signup-btn{
     color: white;
-    background-color: #3882F6;
+    background-color: #000000;
     border: none;
     border-radius: 5px;
     padding-right: 25px;
@@ -69,7 +70,8 @@
 }
 
 .signup-btn:hover{
-    background-color: #4670b3;
+    background-color: #a9a9a9;
+    color: black;
 }
 
 .main-footer{
@@ -104,4 +106,25 @@
 .mus:hover{
     filter: brightness(60%);
     transition-duration: 0.4s;
+}
+
+.items{
+    height: 400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-div{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
