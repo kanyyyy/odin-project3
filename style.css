@@ -163,9 +163,123 @@
     opacity: 70%;
 }
 
+.discription{
+    color: #1F2937;
+    font-size: 21px;
+    font-weight: bolder;
+}
 
+.disc-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .quote-main{
     background-color: #E5E7EB;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beforelast-section{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #58616f;
+    margin-bottom: 0px;
+}
+
+.quote-maker{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: cursive;
+}
+
+.quotemaker-div{
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.signup-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2c2e;
+    border-radius: 6.5px;
+    width: 800px;
+    height: 90px;
+}
+
+.signup-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.signup-btn2{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-left: 70px;
+    transition-duration: 0.33s;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup-btn2:hover{
+    color: #bfc5cd;
+    transition-duration: 0.33s;
+}
+
+.call-action{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+
+.signup-disc{
+    margin-top: 0px;
+    color: rgb(229, 229, 229);
+}
+
+.footer-div{
+    background-color:  #2a2c2e;
+    height: 50px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-section{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
 }
